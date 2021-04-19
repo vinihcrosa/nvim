@@ -1,4 +1,4 @@
-call plug@begin()
+call plug#begin()
 Plug 'scrooloo/se/nerdtree'
 Plug 'valloric/youcompleteme'
 Plug 'morhetz/gruvbox'
