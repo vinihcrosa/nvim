@@ -1,4 +1,5 @@
-" set leder key
+nnoremap <C-S-K> dd
+
 let g:mapleader = "\<Space>"
 
 syntax enable                           " Enables syntax highlighing
@@ -47,4 +48,6 @@ filetype plugin on
 filetype indent on
 
 let mapleader = "\<Space>"
-
+nnoremap <leader>c :close<CR>
+nnoremap <leader>s :w<CR>
+nnoremap <leader>q :q<CR>

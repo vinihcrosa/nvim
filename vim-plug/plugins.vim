@@ -43,4 +43,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'dense-analysis/ale'
   Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
   Plug 'honza/vim-snippets'
+  Plug 'kassio/neoterm'
 call plug#end()
